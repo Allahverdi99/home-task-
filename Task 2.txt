@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+ int a,b;
+ cin>>a>>b;
+ cout<<"cemi: "<<a+b<<endl;
+ cout<<"ferqi: "<<a-b<<endl;
+ cout<<"hasili: "<<a*b<<endl;
+if(b!=0)
+ cout<<"bolmesi: "<<a/b;
+else
+ cout<<"0-a bolunmur";
+return 0;
+}
